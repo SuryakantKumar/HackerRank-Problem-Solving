@@ -19,18 +19,18 @@ def timeConversion(s):
     military_time = ''
 
     if s[-2] == 'A' or s[-2] == 'a':
-        if int(s[0 : 2]) == 12:
-            military_time = '00' + s[2 : -2]
+        if int(s[0:2]) == 12:
+            military_time = '00' + s[2:-2]
             
         else:
-            military_time = s[0 : -2]
+            military_time = s[0:-2]
             
     else:
-        if int(s[0 : 2]) != 12:
-            military_time = str(int(s[0 : 2]) + 12) + s[2 : -2]
+        if int(s[0:2]) != 12:
+            military_time = str(int(s[0:2]) + 12) + s[2:-2]
             
         else:
-            military_time = '12' + s[2 : -2]
+            military_time = '12' + s[2:-2]
             
     return military_time
 
