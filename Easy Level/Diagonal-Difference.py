@@ -45,3 +45,4 @@ if __name__ == '__main__':
     result = diagonalDifference(arr)
     fptr.write(str(result) + '\n')
     fptr.close()
+    
