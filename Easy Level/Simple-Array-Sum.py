@@ -28,3 +28,4 @@ if __name__ == '__main__':
     result = simpleArraySum(ar)
     fptr.write(str(result) + '\n')
     fptr.close()
+    
