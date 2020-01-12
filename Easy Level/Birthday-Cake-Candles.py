@@ -37,3 +37,4 @@ if __name__ == '__main__':
     result = birthdayCakeCandles(ar_count, ar)
     fptr.write(str(result) + '\n')
     fptr.close()
+    
