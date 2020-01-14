@@ -34,7 +34,6 @@ def CountSame(s, si):           # To count the repeated character every time and
     
     return j+1, count
 
-
 def weightedUniformStrings(s, queries):
     freq = {}
     i = 0
